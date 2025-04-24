@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo">Cod<span>e</span>r.</a>
+        <ul class="navlist">
+            <li><a href="#home" class="Active">Home</a></li>
+            <li><a href="#skills">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+
+        </ul>
+
+        <div class="bx bx-menu" id="menu-icon">
+
+        </div>
+
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-text">
+            <div class="slide">
+                <span class="one">Hello</span>
+                <span class="two">I'm </span>
+
+
+            </div>
+            <h1>Rahmeth.</h1>
+            <h3>Web<span> Developer & Designer.</span></h3>
+
+
+            <p style="font-size: 25px;">Junior web developer <br> based in Ethiopia.</p>
+        </div>
+        <div class="btn-container">
+            <button 
+            class="btn btn-color2"
+            onclick="window.open('images/resume .pdf')"
+            >
+            Download CV
+        
+           </button>
+           <button class="btn btn-color1" onclick="location.href='./#contact'">
+               Contact Info
+           </button>
+        </div>
+        <div id="socials-container">
+            <img 
+            src="images/link.jpg" style="width: 30px; height: 30px; border-radius: 50%; object-fit: cover;" 
+            alt="My Linkedin profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/rahemet-gisho-15a081300/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BNnGBOvmAT6CKqUxyti8XIA%3D%3D'"
+            >     <img 
+            src="images/git.jpg" style="width: 30px; height: 30px; border-radius: 50%; object-fit: cover;" 
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/RahemetGisho'"
+            >
+    
+        </div> 
+
+
+    </section>
+
+
+    <section class="skills-wrapper" id="skills">
+        <div class="skills-description">
+            <h3 class="color">Get to know more </h3><br>
+          <h2> <span>About</span> Me!</h2><br>
+          <p>I’m a Front-End Developer and Web Designer with a strong background in software engineering. I specialize in creating responsive, user-friendly websites using HTML, CSS, JavaScript, and Python. I also use Figma to design clean, intuitive interfaces.
+
+            Combining technical skills with creative design, I aim to build digital experiences that are both functional and visually engaging. I'm always exploring new tools and techniques to improve my work and deliver better user experiences. </p>
+        </div>
+    
+        <div class="skills-section">
+          <div class="skill">
+            <div class="skill-name"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(234, 227, 227);transform: msFilter;"><path d="M4.136 3.012h15.729l-1.431 16.15-6.451 1.826-6.414-1.826-1.433-16.15zm5.266 7.302-.173-2.035 7.533.002.173-1.963-9.87-.002.522 5.998h6.835l-.243 2.566-2.179.602-2.214-.605-.141-1.58H7.691l.247 3.123L12 17.506l4.028-1.08.558-6.111H9.402v-.001z"></path></svg>HTML</div>
+            <div class="progress-bar"><div class="progress" data-progress="90%"></div></div>
+          </div>
+    
+          <div class="skill">
+            <div class="skill-name"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(232, 227, 227);transform: msFilter;"><path d="M4.192 3.143h15.615l-1.42 16.034-6.404 1.812-6.369-1.813L4.192 3.143zM16.9 6.424l-9.8-.002.158 1.949 7.529.002-.189 2.02H9.66l.179 1.913h4.597l-.272 2.62-2.164.598-2.197-.603-.141-1.569h-1.94l.216 2.867L12 17.484l3.995-1.137.905-9.923z"></path></svg>CSS</div>
+            <div class="progress-bar"><div class="progress" data-progress="80%"></div></div>
+          </div>
+    
+          <div class="skill">
+            <div class="skill-name"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 48 48">
+                <path fill="#e64a19" d="M26,17h-8c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h8V17z"></path><path fill="#7c4dff" d="M25,31h-7c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7V31z"></path><path fill="#66bb6a" d="M18,45L18,45c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7v7C25,41.866,21.866,45,18,45z"></path><path fill="#ff7043" d="M32,17h-7V3h7c3.866,0,7,3.134,7,7v0C39,13.866,35.866,17,32,17z"></path><circle cx="32" cy="24" r="7" fill="#29b6f6"></circle>
+                </svg>Figma</div>
+            <div class="progress-bar"><div class="progress" data-progress="75%"></div></div>
+          </div>
+    
+          <div class="skill">
+            <div class="skill-name"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(222, 217, 217);transform: msFilter;"><path d="M9.585 11.692h4.328s2.432.039 2.432-2.35V5.391S16.714 3 11.936 3C7.362 3 7.647 4.983 7.647 4.983l.006 2.055h4.363v.617H5.92s-2.927-.332-2.927 4.282 2.555 4.45 2.555 4.45h1.524v-2.141s-.083-2.554 2.513-2.554zm-.056-5.74a.784.784 0 1 1 0-1.57.784.784 0 1 1 0 1.57z"></path><path d="M18.452 7.532h-1.524v2.141s.083 2.554-2.513 2.554h-4.328s-2.432-.04-2.432 2.35v3.951s-.369 2.391 4.409 2.391c4.573 0 4.288-1.983 4.288-1.983l-.006-2.054h-4.363v-.617h6.097s2.927.332 2.927-4.282-2.555-4.451-2.555-4.451zm-3.981 10.436a.784.784 0 1 1 0 1.57.784.784 0 1 1 0-1.57z"></path></svg>Python</div>
+            <div class="progress-bar"><div class="progress" data-progress="60%"></div></div>
+          </div>
+    
+          <div class="skill">
+            <div class="skill-name"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(241, 236, 236);transform: msFilter;"><path d="M3 3h18v18H3V3zm16.525 13.707c-.131-.821-.666-1.511-2.252-2.155-.552-.259-1.165-.438-1.349-.854-.068-.248-.078-.382-.034-.529.113-.484.687-.629 1.137-.495.293.09.563.315.732.676.775-.507.775-.507 1.316-.844-.203-.314-.304-.451-.439-.586-.473-.528-1.103-.798-2.126-.775l-.528.067c-.507.124-.991.395-1.283.754-.855.968-.608 2.655.427 3.354 1.023.765 2.521.933 2.712 1.653.18.878-.652 1.159-1.475 1.058-.607-.136-.945-.439-1.316-1.002l-1.372.788c.157.359.337.517.607.832 1.305 1.316 4.568 1.249 5.153-.754.021-.067.18-.528.056-1.237l.034.049zm-6.737-5.434h-1.686c0 1.453-.007 2.898-.007 4.354 0 .924.047 1.772-.104 2.033-.247.517-.886.451-1.175.359-.297-.146-.448-.349-.623-.641-.047-.078-.082-.146-.095-.146l-1.368.844c.229.473.563.879.994 1.137.641.383 1.502.507 2.404.305.588-.17 1.095-.519 1.358-1.059.384-.697.302-1.553.299-2.509.008-1.541 0-3.083 0-4.635l.003-.042z"></path></svg>JavaScript</div>
+            <div class="progress-bar"><div class="progress" data-progress="40%"></div></div>
+          </div>
+        </div>
+      </section>
+
+    <section class="projects" id="projects">
+        <div class="main-text">
+            <!--<p>My Skills</p>-->
+            <h2><span>My latest </span>Projects</h2>
+
+        </div>
+        <div class="projects-content">
+            <div class="box">
+                <div class="p-icons">
+                    <i class='bx bx-mobile-alt'></i>
+
+                </div>
+                <div>
+                    <h3>SmartBot – AI Chatbot</h3>
+                    <p>A full-stack AI chatbot application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). The project features a responsive and interactive chat interface, designed in Figma and developed with a focus on user experience and clean design.</p>
+                    <a href="#" class="read">Read More</a>
+                </div>
+
+            </div>
+
+
+            <div class="box">
+                <div class="p-icons">
+                    <i class='bx bx-coffee-togo'></i>
+                </div>
+                <div>
+                    <h3>BrewBuzz – Coffee Shop Website</h3>
+                    <p>A stylish and responsive front-end website for a fictional coffee shop. Designed with a cozy aesthetic and smooth user experience, this project highlights attention to detail in layout, design, and interactivity.</p>
+                    <a href="#" class="read">Read More</a>
+                </div>
+
+            </div>
+
+
+            <div class="box">
+                <div class="p-icons">
+                    <i class='bx bxs-cart'></i>
+                </div>
+                <div>
+                    <h3>FashionHub – Online Clothing Store UI</h3>
+                    <p>A clean, modern front-end design for an e-commerce fashion store. Designed in Figma and built with HTML, CSS, and JavaScript. Focused on responsive layouts, smooth navigation, and an intuitive shopping experience.</p>
+                    <a href="#" class="read">Read More</a>
+                </div>
+
+            </div>
+
+
+            <div class="box">
+                <div class="p-icons">
+                    <i class='bx bxs-book'></i>
+                </div>
+                <div>
+                    <h3>EduWeb – Learning Platform UI</h3>
+                    <p>A modern front-end interface for an online learning platform. Features include course listings, filter options, and responsive card layouts. Designed in Figma and developed with HTML, CSS, and JavaScript.</p>
+                    <a href="#" class="read">Read More</a>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+    <section class="Contact" id="Contact">
+        <div class="Contact-text">
+            <h2>Contact<span> Me!</span></h2>
+            <h4>Have a question, project idea, or just want to say hi?</h4>
+            
+            <div class="list">
+                <li><a href="#"><i class='bx bx-phone'></i> +251994932207</a></li>
+                <li><a href="#"><i class='bx bx-envelope'></i> kullefst@gmail.com</a></li>
+               
+
+            </div>
+
+        
+            <div class="Contact-icons">
+               
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-youtube'></i></a>
+
+
+            </div>
+
+        </div>
+
+        <div class="Contact-form">
+         
+
+            <ul style="font-size: 30px;" class="navlistt">
+                <li><a href="#home" class="Active">Home</a></li>
+                <li><a href="#skills">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+    
+            </ul>
+           
+
+        </div>
+
+    </section>
+
+    <section class="end">
+        <div class="last-text">
+            <p>Copyright @ 2022 by rahmethusen All Rights Reserved</p>
+
+        </div>
+
+        <div class="top">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+
+        </div>
+    </section>
+
+    <script type="text/javascript" src="script.js"></script>
+
+
+</body>
+
+</html>
